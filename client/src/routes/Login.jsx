@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Login() {
   return (
-  <div>
+  <div className='mb-12'>
     <div className='absolute inset-0 flex flex-col justify-center items-center'>
       <img className=" w-auto max-h-[15vh] sm:max-h-[20vh] inline-block animate-slideLeft" src="/images/Xandr.png" alt="Xandr" />
       <img className=" w-auto max-h-[15vh] sm:max-h-[20vh] inline-block animate-slideRight ml-2" src="/images/Wolf.png" alt="Wolf" />
