@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -41,7 +42,7 @@ function Header() {
             </ul>
         </div>
         <div className="navbar-end">
-            <button><img className=' h-14 sm:h-full' src="/images/WolfLogo.png" alt=""/></button> {/* Hidden Login Button */}
+            <Link to="/login"><img className=' h-14 sm:h-full' src="/images/WolfLogo.png" alt=""/></Link>
         </div>
     </div>
   )
